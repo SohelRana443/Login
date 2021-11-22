@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dcdcdc"
+
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log into"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="70dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="your account"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:paddingHorizontal="20dp"
+
+        />
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:cardBackgroundColor="#ffffff"
+        android:layout_marginTop="15dp"
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:ems="40"
+            android:textSize="20dp"
+            android:inputType="text"
+            android:paddingTop="10dp"
+            android:paddingHorizontal="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jack.taylor@gmail.com"
+            android:textSize="25dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:inputType="textEmailAddress"
+            android:paddingTop="10dp"
+            android:paddingHorizontal="20dp"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#800000"
+            android:text="Wrong email"
+            android:textSize="20dp"
+            android:layout_marginTop="80dp"
+            android:paddingHorizontal="20dp"
+            android:paddingBottom="5dp"
+
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        app:cardBackgroundColor="#ffffff"
+        app:cardUseCompatPadding="true"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="40"
+            android:hint="Password"
+            android:textSize="20dp"
+            android:inputType="text"
+            android:layout_marginTop="7dp"
+            android:paddingHorizontal="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot?"
+            android:textSize="20dp"
+            android:inputType="text"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="15dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text=". . . . . . . ."
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:paddingHorizontal="20dp"/>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="20dp"
+           app:cardCornerRadius="25dp"
+           app:cardBackgroundColor="@color/black">
+
+               <TextView
+               android:layout_width="match_parent"
+               android:layout_height="60dp"
+               android:text="Log in"
+               android:gravity="center"
+               android:textSize="20dp"
+                   android:textColor="#ffffff"
+
+               />
+       </androidx.cardview.widget.CardView>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="40"
+        android:text="Or sign up with social account"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_margin="17dp"
+        android:textColor="@color/black"
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+   android:layout_margin="15dp">
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/f2"
+        android:background="@drawable/button"
+
+
+
+        />
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/tw"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/twit_b"
+        />
+</LinearLayout>
+
+</LinearLayout>
